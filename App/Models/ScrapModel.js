@@ -147,6 +147,7 @@ ScrapModel.getScrapAppDetails = (appId) =>  {
                 metaData      : [],
                 appId         : appId
             };
+            fullDetails.description = $('.DWPxHb').children('span').children('div').html();
             $(".MSLVtf").each( async function (index, element) {
                 let videoJsonObj = {}
                 videoJsonObj.imageUrl = ($(element).find('img').attr('src') || '').split("=")[0];
