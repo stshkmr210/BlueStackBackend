@@ -1,0 +1,1 @@
+global.PLAY_STORE_DOMAIN = `https://play.google.com`;
